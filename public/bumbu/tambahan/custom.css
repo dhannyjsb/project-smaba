@@ -1,0 +1,196 @@
+.sidebar-wrapper .profile-info {
+  position: relative;
+  padding-bottom: 0;
+  background: gray;
+}
+.sidebar-wrapper .profile-info figure {
+  width: 100%;
+  height: 82px;
+  margin-bottom: 0;
+}
+.sidebar-wrapper .profile-info .user-info {
+  text-align: center;
+  /*!
+ * padding: 50px 0 0 0;
+ * height: 105px;
+ */
+}
+.sidebar-wrapper .profile-info .user-info img {
+  position: absolute;
+  top: 15px;
+  border-radius: 50%;
+  border: 6px solid rgba(235, 237, 242, 0.611765);
+  border: 6px solid rgba(68, 94, 222, 0.24);
+  left: 0;
+  right: 0;
+  height: 90px;
+  width: 90px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sidebar-wrapper .profile-info .user-info h6 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 117px;
+  left: 0;
+  right: 0;
+  height: 90px;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+}
+.sidebar-wrapper .profile-info .user-info p {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 140px;
+  left: 0;
+  right: 0;
+  height: 90px;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+}
+
+.head_menu {
+  color: #ffffff;
+}
+.table_rombel .table_rombel_body td {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .table_rombel .table_rombel_body td {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .filter_bar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 719px) {
+  /* For desktop : */
+  .judul_widget {
+    display: none;
+  }
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+  width: 100px !important;
+  height: 35px;
+  display: inline-block;
+}
+div.dataTables_wrapper div.dataTables_length {
+  margin-left: -72px;
+}
+.search_bar {
+  margin-top: 6px;
+}
+.toolbar {
+  margin-right: 9px;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+  margin-left: -90px;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+  height: 35px;
+}
+.form-control.smaba_font {
+  padding: 7px 16px;
+  font-size: 12px;
+}
+.label_smaba {
+  font-size: 13px !important;
+  color: black !important;
+}
+.data_kosong {
+  font-size: 150px;
+  color: red;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-shadow: 0px 5px 4px rgba(31, 45, 61, 0.101961);
+}
+
+.data_nihil {
+  text-align: center;
+}
+.data_nihil .mini-text {
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #1b55e2;
+}
+.data_nihil .error-text {
+  font-size: 18px;
+  color: #3b3f5c;
+  font-weight: 600;
+}
+.background_tab {
+  background-color: #f1f2f3;
+}
+.back_input {
+  background-color: #f8f9fa;
+  color: black !important;
+}
+.label_hitam {
+  color: black !important;
+  font-weight: bold;
+}
+.status_sync_icon_oke {
+  color: green;
+  background-color: greenyellow;
+  height: 70px;
+  display: inline-flex;
+  width: 70px;
+  align-self: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 13px;
+}
+.status_sync_icon_belum {
+  color: red;
+  background-color: navajowhite;
+  height: 70px;
+  display: inline-flex;
+  width: 70px;
+  align-self: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 13px;
+}
+.notif_password {
+  margin-top: -1.1rem !important;
+}
+.text_notif_pass {
+  font-weight: bold;
+}
+.apexcharts-menu-icon {
+  margin-right: 10px !important;
+}
+.list_active {
+  background: transparent;
+  transform: none;
+  color: green;
+  border: 2px dashed green;
+}
+.list_suspend {
+  background: transparent;
+  transform: none;
+  color: Red;
+  border: 2px dashed red;
+}
+.statistik .text-bold-600 {
+  font-size: 14px;
+  color: #009688;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
